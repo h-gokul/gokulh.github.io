@@ -2,10 +2,10 @@
 #
 
 # Site settings
-title: Gokul H	
-description: |
-  Just Another Engineer
-owner: Gokul H # or company name
+title: Gokul 	
+description: 
+  Research Scholar. Existentialist. 
+owner: Gokul # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: hgokul98@gmail.com
 baseurl: "/" # the subpath of your site, e.g. /blog
