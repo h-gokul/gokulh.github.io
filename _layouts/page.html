@@ -7,10 +7,22 @@ layout: default
     <h2>{{ page.title }}</h2>
   </header>
 
-  <section class="wrapper style5">
+  <div id="page-wrapper">
+
+    {% include header.html %}
+
+    {{ content }}
+    
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </div>
+
+  <!-- <section class="wrapper style5">
     <div class="inner">
       {{ content }}
     </div>
-  </section>
+  </section> -->
 
 </article>
