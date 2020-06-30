@@ -1312,7 +1312,7 @@ header .logo {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #ffffffb4;
+	color: #fffffff3;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1334,10 +1334,10 @@ header .logo {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "poppins-light", serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: .2rem;
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -1477,7 +1477,8 @@ header .logo {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #05050538;
+	background: #0505058f;
+	opacity: 0.75;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
