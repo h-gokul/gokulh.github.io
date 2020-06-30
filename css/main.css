@@ -660,8 +660,8 @@ input[type="button"] {
 	line-height: 5.4rem;
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
-	background: #d8d8d8;
-	color: #313131;
+	background: #d6d5d5;
+	color: #363636;
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
@@ -684,8 +684,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-	background: #bebebe;
-	color: #000000;
+	background: #424242;
+	color: #c00080;
 	outline: 0;
 }
 .button.button-primary,
@@ -1023,7 +1023,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #ebebeb;
 }
 .grey-section p.lead {
-	color: #e2dddd;
+	color: #363535;
 }
 .section-intro {
 	max-width: 700px;
@@ -1488,7 +1488,7 @@ header .logo {
 } */
 
 #about {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/seismic.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
