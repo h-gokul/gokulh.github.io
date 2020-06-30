@@ -684,10 +684,11 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-	background: #424242;
-	color: #c00080;
+	background: #a3a3a3;
+	color: #910261;
 	outline: 0;
 }
+
 .button.button-primary,
 a.button.button-primary,
 button.button-primary,
@@ -1488,7 +1489,7 @@ header .logo {
 } */
 
 #about {
-	background: #313131 url(../images/seismic.jpg) no-repeat center;
+	background: #313131 url(../images/noise1.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
