@@ -1300,7 +1300,7 @@ header .logo {
 	width: 100%;
 	height: 100%;
 	background: #111111;
-	opacity: .65;
+	opacity: .75;
 }
 
 .intro-content {
@@ -1486,15 +1486,6 @@ header .logo {
 	margin-bottom: 3rem;
 }
 
-.about-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #111111;
-	opacity: .65;
-}
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
