@@ -153,10 +153,10 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "poppins-loght", sans-serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #e2dbdbfb;
+	color: #e2dbdbf8;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -1478,7 +1478,7 @@ header .logo {
  */
 #about {
 	background: #0505058f;
-	opacity: 0.75;
+	opacity: 0.65;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
