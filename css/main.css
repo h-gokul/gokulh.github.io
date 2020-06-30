@@ -963,7 +963,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #cc005f;
+	background: #eb036f;
 	position: relative;
 	height: 100%;
 }
@@ -1023,7 +1023,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #ebebeb;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #e2dddd;
 }
 .section-intro {
 	max-width: 700px;
@@ -1300,7 +1300,7 @@ header .logo {
 	width: 100%;
 	height: 100%;
 	background: #111111;
-	opacity: .75;
+	opacity: .65;
 }
 
 .intro-content {
@@ -1312,7 +1312,7 @@ header .logo {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #fffffff3;
+	color: #ffffff;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1478,7 +1478,7 @@ header .logo {
  */
 #about {
 	background: #0505058f;
-	opacity: 0.65;
+	/* opacity: 0.65; */
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1486,14 +1486,23 @@ header .logo {
 	margin-bottom: 3rem;
 }
 
+.about-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #111111;
+	opacity: .65;
+}
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 18rem;
+	width: 18rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: middle;
