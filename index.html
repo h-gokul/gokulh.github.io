@@ -1,217 +1,1029 @@
----
-layout: landing
----
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="resume.pdf" class="button special">View Resume</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-				<!-- One -->
-					<section id="one" class="wrapper style3 special">
-						<div class="image"><img src="images/pic.png" align="middle" /></div><div class="content"></div>
-						<div class="inner">
-							<header class=" major">
-								<h2>Hi there! Welcome. Hello<br />
-								 </h2>
-								<p>Hello! I am currently a full-time research assistant at Solarillion Foundation where I am researching on the methods to improve adversarial robustness of deep learning models, especially in the computer vision domain. My research interests are in the fields of Machine Learning, IoT, Control Systems, Human Machine Interactions and Computer Vision. You can find some of my projects on GitHub.
-									I am always on the lookout for opportunities to learn more and work on exciting projects in the fields of my interest. Take a look at some of my Projects and Research publications.</p>
-							</header>	
-						</div>
-					</section>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Menu</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-				<!-- The really cool block -->
-					<!-- <section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>How to confuse Deep Learning Models which I already find confusing?<br />
-								</h2>
-								<p>Our research team at Solarillion are working on improving the adversarial robustness of deep learning models. From designing PGD attackers to reinforcing CNN layers with signal denoising blocks, good stuff up here.  </p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>ML in arduino ?<br />
-								</h2>
-								<p>We designed a wearable assistive aid to combat Freezing of Gait problem in Parkinson's patients with <br />
-									ProtoNN - a 2KB sized Edge ML algorithm.Check out my publication <a href="//">here</a></p>
-							</div>
-						</section>
-						<section 
-						class="spotlight">
-							<div class="image"><img src="images/pic05.jpg" alt="" /></div><div class="content">
-								<h2>Edge AI.<br />
-								</h2>
-								<p>I worked on wearable computing with recurrent neural networks by implementing Microsoft's latest EdgeML versions.<br />
-									Check out my project EMIRNN <a href="https://github.com/h-gokul/EMIRNN">here</a></p>
-							</div>
-						</section>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Gesture Recognition.<br />
-								</h2>
-								<p>Addressing inter-user adaptibility of gesture recognition systems for sign language interpretation.<br />
-									Check out my publication <a href="https://ieeexplore.ieee.org/document/8875343">here</a></p>
-							</div>
-						</section>
-					</section> -->
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-					<!-- CTA -->
-				<!-- <section id="cta" class="wrapper style4">
-					<div class="inner">
-						<ul class="actions horizontal">
-							<li><a href="publications.html" class="button fit special">Career</a></li>
-							<li><a href="personal.html" class="button fit">Personal Life</a></li>
-						</ul>
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="logo.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">HOME</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a href="styles.html" title="">Style Demo</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Arpit Maclay.</h1>
+
+	   			<p class="intro-position">
+					<span>Research Assistant</span>   
+					<span>Computer Vision Engineer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Check me Out !</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href=https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hgokul98@gmail.com><i class="fa fa-google"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/hgokul7/"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/h-gokul"><i class="fa fa-github"></i></a></li>
+         <!-- <li><a href="https://www.youtube.com/channel/UClQNlh_cattal870bzkaQxw?view_as=subscriber"><i class="fa fa-youtube"></i></a></li> -->
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>About myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/yo.jpg" alt="Profile Picture">
+
+   				<p class="lead">I am currently a full-time research assistant at Solarillion Foundation where I am researching on the methods to improve adversarial robustness of deep learning models, especially in the computer vision domain. My research interests are in the fields of Machine Learning, IoT, Control Systems, Human Machine Interactions and Computer Vision. You can find some of my projects on GitHub.
+					I am always on the lookout for opportunities to learn more and work on exciting projects in the fields of my interest. </p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>Take a look at some of my Projects and Research publications.</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Arpit Maclay</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>April 1, 1996</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Perception Engineer, Software Developer</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.kardswebsite.com</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>arpitmac74@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Tensorflow</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>Keras</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>ROS</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>UI Designer</h3>
+	   					<p>July 2015 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Awesome Studio</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Web Designer</h3>
+	   					<p>May 2013 - June 2014</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Great Designs Studio</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Master Degree</h3>
+	   					<p>July 2015 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>University of Life</h4>
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/drone.gif" alt="Autonomous Drone Racing">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Autonomous Drone Racing</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Reinforcement Learning
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/maze.gif" alt="Micro-Maze Solver">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Micro-Maze Solver</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Breadth First Search, OOP
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/yolo.gif"alt="Clouds">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Real Time Object Detection</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/ariac.gif" alt="Ros">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">ARIAC Challenge 2019</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  ROS
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/auto.gif" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Autonommous Mobile Robot</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Localization, OpenCV, Sensor Fusion
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+					  </a>
+					  
+				   
 					</div>
-				</section> -->
+	        		</div> <!-- /folio-item -->
 
-				<!-- Three -->
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/slam.gif" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">2D SLAM</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Extended Kalman Filter
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+					</div> <!-- /folio-item -->
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+					 <img src="images/portfolio/panoblur.png" alt="Salad">
+						<a href="#modal-07" class="overlay">
+							<div class="folio-item-table">
+								<div class="folio-item-cell">
+									<h3 class="folio-title">AutoPanaroma</h3>	     					    
+											<span class="folio-types">
+												Deep Learning, OpenCV
+										 </span>		     		
+										</div>	                      	
+							</div>
+						</a>
+					</div>
+					 </div> <!-- /folio-item -->
+				 <div class="bgrid folio-item">
+					 <div class="item-wrap">
+					  <img src="images/portfolio/Lidar.gif" alt="Salad">
+						 <a href="#modal-08" class="overlay">
+							 <div class="folio-item-table">
+								 <div class="folio-item-cell">
+									 <h3 class="folio-title">LIDAR Obstacle Detection</h3>	     					    
+											 <span class="folio-types">
+												 Point Cloud Library, RANSAC, Clustering
+										  </span>		     		
+										 </div>	                      	
+							 </div>	                    
+						   </a>
+						</div>
+						 </div> <!-- /folio-item -->    
 
-				<!-- <section id="one" class="wrapper style1 special">	
-					<div class="inner">
-						<header>
-							<h2>Career</h2>
-						</header>	
-				</section> -->
-				
-				<section id = "cta" class = "wrapper style5" >
-				
-					<h4 align = "center">Experiences</h4>
-					<div class="table-wrapper">
-						<table>
-							<thead>
-								<tr>
-									<th >Year</th>
-									<th >Role</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Apr 2019- Currently Ongoing</td>
-									<td>Full-time Research Assistant at Solarillion Foundation.</td>
-								</tr>
-								<tr>
-									<td>Dec 2018- Currently Ongoing</td>
-									<td>Teaching Assistant at Solarillion Foundation.</td>
-								</tr>
-								<tr>
-									<td>Aug 2017- Apr 2019</td>
-									<td>UnderGraduate part-time Research Assistant at Solarillion Foundation.</td>
-								</tr>
-								
-								<tr>
-									<td>Dec 2017-Apr 2019</td>
-									<td>Under Graduate Project Assistant at S4S Project labs .</td>
-								</tr>
-				
-								<tr>
-									<td>Aug 2015 - Apr 2019</td>
-									<td> Electrical and Electronics Undergraduate Student at Anna University.</td>
-								</tr>
-							</tbody>
-							<!-- <tfoot>
-								<tr>
-									<td colspan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot> -->
-						</table>
-					</div>				
-				</section>
-				
-				<!-- Research -->
-				<section id="#research" class="wrapper style1 ">
-					<div class="inner">
-						<header>
-							<h2 align = center >Research</h2>
-						</header>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>How to confuse Deep Learning Models which I already find confusing?<br />
-							</h2>
-							<p>Our research team at Solarillion are working on improving the adversarial robustness of deep learning models. From designing PGD attackers to reinforcing CNN layers with signal denoising blocks, good stuff up here.  </p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-							<h2>ML in arduino ?<br />
-							</h2>
-							<p>We designed a wearable assistive aid to combat Freezing of Gait problem in Parkinson's patients with <br />
-								ProtoNN - a 2KB sized Edge ML algorithm.Check out my publication <a href="//">here</a></p>
-						</div>
-					</section>
-				
-					<section class="spotlight">
-						<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-							<h2>Gesture Recognition.<br />
-							</h2>
-							<p>Addressing inter-user adaptibility of gesture recognition systems for sign language interpretation.<br />
-								Check out my publication <a href="https://ieeexplore.ieee.org/document/8875343">here</a></p>
-						</div>
-					</section>	
-				</section>
-				
-				<!-- Projects -->
-				<section id="two" class="wrapper style3 special">
-					<div class="inner">
-						<header>	
-							<h2 align = center >Projects</h2>
-						</header>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>Edge AI. <br />
-							</h2>
-							<p>I worked on wearable computing with recurrent neural networks by implementing Microsoft's latest EdgeML versions.<br />
-							Check out my project EMIRNN <a href="https://github.com/h-gokul/EMIRNN">here</a></p>
-						</div>
-					</section>
-				
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>Activity Recognition<br />
-							</h2>
-							<p>Addressing device heterogeniety problem in Activity Recognition using accelerometer from Smart phones <br />
-							Check out this read and replicate project notebook <a href="https://github.com/h-gokul/HHAR-Using_HARnet">here</a></p>
-						</div>
-					</section>
-				
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>Human Robot Interaction.<br />
-							</h2>
-							<p>Design of real-time human robot interactive systems to control a 3DOF robotic arm.<br />
-							 We also evaluated it's performance using experiments based on Fitt's Targetting Law for HCI. Check out my project <a href="https://github.com/h-gokul/Human-Robot-Interactive-Systems-for-a-3-DOF-Robotic-Arm">here</a></p>
-						</div>
-					</section>
-					
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>Object Recognition Bot.</h2>
-						<p> Addressing the cost and hardware issues related to sensor odometry and designing a mono-vision bot using the ORB Slam algorithm. Check out my project <a href = "https://github.com/h-gokul/ObjectRecognitionBot" >here</a> </p>
-						</div>
-					</section>
-				</section>
-				
-				<!-- CTA Feedback-->
-				<!-- <section id="cta" class="wrapper style4">
-				<div class="inner">
-					<header>
-						<h2>How can I improve ?</h2>
-					</header>
-					<!-- <ul class="actions vertical">
-						<li><a href="publications.html" class="button fit special">Projects</a></li>
-					><a href="personal.html" class="button fit">Personal Life</a></li>
-					 </ul>  -->
-				<!-- </div> -->
-				<!-- </section> --> 
-				
-					
+						<div class="bgrid folio-item">
+					   <div class="item-wrap">
+						   <img src="images/portfolio/carla.gif" alt="Lighthouse">
+						  <a href="#modal-09" class="overlay">             		                  
+							 <div class="folio-item-table">
+								 <div class="folio-item-cell">
+									 <h3 class="folio-title">Smoothed Optimal Planning</h3>	     					    
+											 <span class="folio-types">
+												Flexible nodes ,Graphical Search, CARLA
+									   </span>
+									</div>
+								</div>
+								</a>		    	   
+															   	
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
 
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/MIT.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Autonomous Drone Racing</h4>		      
+					      <p>An implmentation of reinforcement algorithm trained to pass through gates. The implmentation uses python, keras and the MIT flightgoggles simulation environment.</p>
+
+					      <div class="categories">C++, ROS</div>			               
+					   </div>
+			         <div class="link-box">
+						<a href="https://www.linkedin.com/in/arpit-maclay-7b93a011b/">Github</a>
+					      <a href="#" class="popup-modal-dismiss">Press Esc</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Micro-Maze Solver</h4>		      
+					      <p>Proinrr gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.google.com">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Clouds</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.google.com">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Lighthouse</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+				   <div id="modal-07" class="popup-modal slider mfp-hide">	
+
+					<div class="media">
+						<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+					</div>      	
+
+				  <div class="description-box">
+					 <h4>Salad</h4>		      
+					 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					 <div class="categories">Branding</div>			               
+				  </div>
+
+				<div class="link-box">
+				   <a href="http://www.behance.net">Details</a>
+					 <a href="#" class="popup-modal-dismiss">Close</a>
+				</div>		      
+
+			  	</div> <!-- /modal-07 -->
+					  
+				  <div id="modal-08" class="popup-modal slider mfp-hide">	
+
+					<div class="media">
+						<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+					</div>      	
+
+			  	  <div class="description-box">
+				 	<h4>Salad</h4>		      
+				 	<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+				 	 <div class="categories">Branding</div>			               
+			  	  </div>
+
+			<div class="link-box">
+			   <a href="http://www.behance.net">Details</a>
+				 <a href="#" class="popup-modal-dismiss">Close</a>
+			</div>		      
+
+		  </div> <!-- /modal-08 -->
+			        
+
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Webdesign</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Branding</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         		
+	            </div>                
+
+				</div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Graphics Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Consultancy</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							120
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>someone@kardswebsite.com<br>
+			   	info@kardswebsite.com			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+63) 555 1212<br>
+			   	Mobile: (+63) 555 0100<br>
+			     	Fax: (+63) 555 0101
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
