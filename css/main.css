@@ -1489,7 +1489,7 @@ header .logo {
 } */
 
 #about {
-	background: #313131 url(../images/noise1.jpg) no-repeat center;
+	background: #000000 url(../images/noise1.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
