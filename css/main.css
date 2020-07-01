@@ -1282,7 +1282,7 @@ header .logo {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro.jpg) no-repeat center bottom;
+	background: #151515 url(../images/4wave1.gif) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1489,7 +1489,7 @@ header .logo {
 } */
 
 #about {
-	background: #000000 url(../images/noise1.jpg) no-repeat center;
+	background: #000000 url(../images/smokeBWlow.gif) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
